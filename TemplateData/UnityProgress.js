@@ -12,19 +12,19 @@ function UnityProgress (dom) {
 	this.background = background;
 
 	var logoImage = document.createElement("img");
-	logoImage.src = "https://dl.dropboxusercontent.com/s/5rfbis2s5wzrtlj/progresslogo.png"; 
+	logoImage.src = "TemplateData/progresslogo.png"; 
 	logoImage.style.position = "absolute";
 	parent.appendChild(logoImage);
 	this.logoImage = logoImage;
 
 	var progressFrame = document.createElement("img");
-	progressFrame.src = "https://dl.dropboxusercontent.com/s/iucbd1dxz8lvmf2/loadingbar.png"; 
+	progressFrame.src = "TemplateData/loadingbar.png"; 
 	progressFrame.style.position = "absolute";
 	parent.appendChild(progressFrame);
 	this.progressFrame = progressFrame;
 
 	var progressBar = document.createElement("img");
-	progressBar.src = "https://dl.dropboxusercontent.com/s/ta0jsal4shyfqj9/fullbar.png"; 
+	progressBar.src = "TemplateData/fullbar.png"; 
 	progressBar.style.position = "absolute";
 	parent.appendChild(progressBar);
 	this.progressBar = progressBar;
